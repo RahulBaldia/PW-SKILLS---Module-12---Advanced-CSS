@@ -1,0 +1,16 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+a{
+    background-image: linear-gradient(to right, #2751db,#6730de);
+    text-decoration:none ;
+    padding:14px 40px;
+    display:inline-block ;
+    color: #fff;
+    font-size:18px ;
+    font-weight: bold;
+    margin-top:30px ;
+    margin-left: 190px;
+    border-radius: 10px;
+    cursor: pointer;
+}

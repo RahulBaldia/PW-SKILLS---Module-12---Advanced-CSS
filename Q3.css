@@ -1,0 +1,90 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.sticky-note {
+    width: 300px;
+    height: 300px;
+    background: linear-gradient(135deg, #6b73ff, #000dff);
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+    border: 2px solid black;
+}
+span.fir{
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+}
+span.create{
+    margin-top: 10px;
+}
+h3.imp{
+    font-size: 30px;
+    color: black;
+    font-weight: bold;
+}
+.sticky-note:hover {
+    transform: rotate(-90deg);
+}
+
+.note-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.note-header {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.9em;
+}
+
+.note-body {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.note-body h3 {
+    margin: 0 0 10px 0;
+}
+
+.note-body ul {
+    list-style: circle;
+    padding: 0;
+    margin: 0;
+    color: black;
+}
+
+.note-body ul li {
+    margin: 5px 0;
+    margin-left: 25px;
+}
+
+.note-footer {
+    display: flex;
+    justify-content: center;
+}
+
+.note-footer button {
+    background:linear-gradient(to right, #62f2ce, #47c847);
+    border: none;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 450px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+}

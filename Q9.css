@@ -1,0 +1,61 @@
+:root {
+    --primary-color: #333;
+    --secondary-color: #888;
+    --text-color: #fff;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+.card {
+    background-color: var(--primary-color);
+    border-radius: 16px;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    color: var(--text-color);
+}
+
+.logo {
+    width: 80px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.content {
+    max-height: 200px;
+    overflow-y: auto;
+    padding-right: 10px; /* Add some padding to avoid overlapping with scrollbar */
+}
+
+.description {
+    color: var(--secondary-color);
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+
+/* Custom Scrollbar for Content */
+.content::-webkit-scrollbar {
+    width: 8px;
+}
+
+.content::-webkit-scrollbar-thumb {
+    background-color: var(--secondary-color);
+    border-radius: 4px;
+}
+
+.content::-webkit-scrollbar-track {
+    background: var(--primary-color);
+}

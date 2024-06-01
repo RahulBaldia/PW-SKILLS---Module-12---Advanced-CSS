@@ -1,0 +1,37 @@
+body{
+    background-image: linear-gradient(to right, #e365be,#af17f0);
+}
+h1{
+    display: inline-block;
+    font-size: 30px;
+    font-style: italic;
+    margin-left: 220px;
+    color: #fff;
+}
+p{
+    color: #fff;
+}
+p.ye{
+    font-size: 20px;
+    position:absolute ;
+    margin-left: 180px;
+    margin-top: 60px;
+}
+p.in{
+    font-size: 20px;
+    position:absolute ;
+    margin-left: 460px;
+    margin-top: 60px;
+}
+p.pr{
+    font-size: 20px;
+    position:absolute ;
+    margin-left: 770px;
+    margin-top: 60px;
+}
+p.tot{
+    font-size: 20px;
+    position:absolute ;
+    margin-left: 1050px;
+    margin-top: 60px;
+}

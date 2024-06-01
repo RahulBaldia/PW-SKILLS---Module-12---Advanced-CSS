@@ -1,0 +1,14 @@
+img{
+    width: 400px;
+    height: 350px;
+    margin-left: 120px;
+    margin-top: 50px;
+    border: 2px solid black;
+}
+h1{
+   margin-left: 95px;
+   margin-top: 50px;
+}
+img:hover{
+    filter: grayscale(1);
+}
